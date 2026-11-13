@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Your Munnar Journey | TrackWorld</title>
+  <meta name="description" content="Plan and book your Munnar tour or Meesapulimala trek with TrackWorld. Direct permits, 4x4 jeeps, homestays, and local guides in Kerala.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="wrap">
+      <a href="index.html" class="logo">
+        <span class="logo-leaf">🍃</span> Track<i>World</i>
+      </a>
+      <button class="menu-btn" aria-expanded="false">Menu</button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="munnar.html">Munnar</a></li>
+          <li><a href="services.html">Tours & Treks</a></li>
+          <li><a href="projects.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a class="cta active" href="contact.html">Book Your Trek</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <div class="hero small" style="--img:url('https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1600&q=80')">
+      <div class="wrap">
+        <div class="hero-content">
+          <span class="badge badge-gold">✦ Reserve Your Trail Experience</span>
+          <h1>Plan Your Munnar Journey</h1>
+          <p>Share your dates and dream places. Our local Munnar expedition lead will reply with an exact itinerary and transparent quote within 4 hours.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Booking Form Section -->
+    <section>
+      <div class="wrap split">
+        
+        <!-- Form -->
+        <div class="rv" style="background:#fff; padding:36px; border-radius:var(--r); box-shadow:var(--shadow); border:1px solid var(--border);">
+          <span class="eyebrow">Direct Reservation</span>
+          <h2 style="font-size:2rem; color:var(--forest); margin-bottom:12px;">Trip Enquiry Form</h2>
+          <p style="color:var(--muted); font-size:0.95rem; margin-bottom:24px;">No immediate payment required. We will confirm dates and permits first.</p>
+
+          <form id="contact-form">
+            <div>
+              <label style="display:block; font-size:0.85rem; font-weight:600; margin-bottom:6px; color:var(--forest);">Your Full Name *</label>
+              <input name="name" type="text" placeholder="e.g. Arun Nair" required aria-label="Full Name">
+            </div>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+              <div>
+                <label style="display:block; font-size:0.85rem; font-weight:600; margin-bottom:6px; color:var(--forest);">Email Address *</label>
+                <input type="email" name="email" placeholder="arun@example.com" required aria-label="Email">
+              </div>
+              <div>
+                <label style="display:block; font-size:0.85rem; font-weight:600; margin-bottom:6px; color:var(--forest);">WhatsApp / Phone *</label>
+                <input type="tel" name="phone" placeholder="+91 98765 43210" required aria-label="Phone">
+              </div>
+            </div>
+
+            <div>
+              <label style="display:block; font-size:0.85rem; font-weight:600; margin-bottom:6px; color:var(--forest);">Select Adventure or Custom Spot *</label>
+              <select name="tour" aria-label="Tour or Place">
+                <option value="Munnar Tea Trails & Waterfalls (3D/2N)">Munnar Tea Trails & Waterfalls (3 Days / 2 Nights)</option>
+                <option value="Meesapulimala Sunrise Ridge Trek (2D/1N)">Meesapulimala Sunrise Ridge Trek (2 Days / 1 Night)</option>
+                <option value="Kolukkumalai 4x4 Jeep Safari (2D/1N)">Kolukkumalai 4x4 Jeep Safari (2 Days / 1 Night)</option>
+                <option value="Top Station Wilderness Camp (2 Nights)">Top Station Wilderness Camp (2 Nights)</option>
+                <option value="Eravikulam & Marayoor Safari (3D/2N)">Eravikulam & Marayoor Safari (3 Days / 2 Nights)</option>
+                <option value="Romantic Cloud Haven Escape (4D/3N)">Romantic Cloud Haven Escape (4 Days / 3 Nights)</option>
+                <option value="Custom Tailored Munnar Itinerary">Custom Tailored Munnar Itinerary (Mention in details)</option>
+              </select>
+            </div>
+
+            <div>
+              <label style="display:block; font-size:0.85rem; font-weight:600; margin-bottom:6px; color:var(--forest);">Trip Details & Preferences</label>
+              <textarea rows="4" name="message" placeholder="Estimated dates of travel, number of guests, preferred stay style (Tents / Homestay / Resort), or any special requests..." required></textarea>
+            </div>
+
+            <button class="btn" type="submit" style="width:100%; justify-content:center;">Send Enquiry & Check Availability →</button>
+            <p id="form-msg" role="status"></p>
+          </form>
+        </div>
+
+        <!-- Contact Information & Guarantees -->
+        <div class="rv">
+          <span class="eyebrow">Direct Contact</span>
+          <h2 class="title">Speak With Our Local Team</h2>
+          <p class="lead">Prefer discussing directly over phone or WhatsApp? Our Munnar coordinators are available 7 days a week.</p>
+
+          <div style="display:grid; gap:20px; margin: 30px 0;">
+            
+            <div style="background:#fff; padding:20px 24px; border-radius:var(--r-sm); border:1px solid var(--border); display:flex; gap:16px; align-items:flex-start;">
+              <span style="font-size:1.8rem;">📞</span>
+              <div>
+                <b style="color:var(--forest); display:block; font-size:1.05rem;">Direct Phone & WhatsApp</b>
+                <p style="margin:4px 0 0; color:var(--muted); font-size:0.92rem;">+91 800 123 456 / +91 944 700 8899<br><small style="color:var(--leaf); font-weight:600;">Instant WhatsApp support available</small></p>
+              </div>
+            </div>
+
+            <div style="background:#fff; padding:20px 24px; border-radius:var(--r-sm); border:1px solid var(--border); display:flex; gap:16px; align-items:flex-start;">
+              <span style="font-size:1.8rem;">✉️</span>
+              <div>
+                <b style="color:var(--forest); display:block; font-size:1.05rem;">Email Enquiries</b>
+                <p style="margin:4px 0 0; color:var(--muted); font-size:0.92rem;">hello@trackworld.com / bookings@trackworld.com<br><small style="color:var(--muted);">Average reply time: under 2 hours</small></p>
+              </div>
+            </div>
+
+            <div style="background:#fff; padding:20px 24px; border-radius:var(--r-sm); border:1px solid var(--border); display:flex; gap:16px; align-items:flex-start;">
+              <span style="font-size:1.8rem;">📍</span>
+              <div>
+                <b style="color:var(--forest); display:block; font-size:1.05rem;">Munnar Base Camp & Office</b>
+                <p style="margin:4px 0 0; color:var(--muted); font-size:0.92rem;">Hill View Road, Old Munnar, Idukki District, Kerala - 685612<br>Thrissur Regional Office: Main Road, Thrissur - 680001</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Trust Badges -->
+          <div style="background:var(--forest); color:#fff; padding:24px; border-radius:var(--r); display:grid; gap:12px;">
+            <b style="color:var(--gold); font-size:1.1rem;">🛡️ The TrackWorld Booking Guarantee:</b>
+            <div style="font-size:0.9rem; color:#d2e5da;">✓ 100% Free cancellation up to 7 days before trip</div>
+            <div style="font-size:0.9rem; color:#d2e5da;">✓ Weather safety pledge: Alternate trail or refund if forest is closed</div>
+            <div style="font-size:0.9rem; color:#d2e5da;">✓ Official KFDC & Forest Department verified permits</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      <div>
+        <a href="index.html" class="logo">
+          <span class="logo-leaf">🍃</span> Track<i>World</i>
+        </a>
+        <p>Curated treks, cloud-peak sunrises, luxury camping, and authentic tea garden journeys across the Western Ghats of Kerala.</p>
+      </div>
+
+      <div>
+        <h3>Munnar Highlights</h3>
+        <ul>
+          <li><a href="munnar.html#places-grid">Kolukkumalai Tea</a></li>
+          <li><a href="munnar.html#places-grid">Meesapulimala Peak</a></li>
+          <li><a href="munnar.html#places-grid">Eravikulam Sanctuary</a></li>
+          <li><a href="munnar.html#places-grid">Top Station View</a></li>
+          <li><a href="munnar.html#places-grid">Mattupetty & Kundala</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="munnar.html">Munnar Guide</a></li>
+          <li><a href="services.html">Tours & Treks</a></li>
+          <li><a href="projects.html">Photo Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Book Custom Trip</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact Us</h3>
+        <p>
+          📍 Hill View Road, Munnar & Main Road, Thrissur<br>
+          📞 +91 800 123 456 / +91 944 700 8899<br>
+          ✉️ hello@trackworld.com<br>
+          ⏰ Daily 8:00 AM – 9:00 PM IST
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 TrackWorld Adventures Pvt Ltd. All rights reserved.</p>
+        <p>Crafted with passion for Kerala's hills & eco-tourism.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="Assets/js/main.js"></script>
+</body>
+</html>

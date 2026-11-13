@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Munnar Travel Guide | 16 Top Places & Trails | TrackWorld</title>
+  <meta name="description" content="Explore the 16 most breathtaking places in Munnar, Kerala. From the world's highest tea estate at Kolukkumalai to Meesapulimala sunrise treks, Eravikulam, and majestic waterfalls.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="wrap">
+      <a href="index.html" class="logo">
+        <span class="logo-leaf">🍃</span> Track<i>World</i>
+      </a>
+      <button class="menu-btn" aria-expanded="false">Menu</button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="munnar.html" class="active">Munnar</a></li>
+          <li><a href="services.html">Tours & Treks</a></li>
+          <li><a href="projects.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a class="cta" href="contact.html">Book Your Trek</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <div class="hero" style="--img:url('https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1600&q=80')">
+      <div class="wrap">
+        <div class="hero-content">
+          <span class="badge badge-gold">✦ Idukki, Western Ghats • Kerala</span>
+          <h1>Munnar: The Enchanted Land of Mist & Tea</h1>
+          <p>Towering emerald peaks rising through endless cloud blankets, 140-year-old tea estates, hidden cascading waterfalls, and endangered wildlife. Welcome to South India's premier mountain paradise.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#places-grid">Explore 16 Places ↓</a>
+            <a class="btn ghost" href="#itinerary">4-Day Munnar Plan</a>
+          </div>
+          <div class="hero-pills">
+            <span class="hero-pill">📍 <b>1,600 m – 2,695 m</b> Elevation</span>
+            <span class="hero-pill">🌡️ <b>12°C – 22°C</b> Mild Climate</span>
+            <span class="hero-pill">☕ <b>Highest Tea</b> in the World</span>
+            <span class="hero-pill">🦌 <b>Nilgiri Tahr</b> Sanctuary</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Intro Section -->
+    <section>
+      <div class="wrap split">
+        <div class="rv">
+          <span class="eyebrow">Discover the Magic</span>
+          <h2 class="title">Where Three Mountain Streams Converge</h2>
+          <p class="lead">The name <i>Munnar</i> originates from the Malayalam words <i>Moonu</i> (three) and <i>Aaru</i> (river), marking the confluence of the Mudhirapuzha, Nallathanni, and Kundala rivers.</p>
+          <p style="color:var(--muted); margin-bottom: 24px;">From the second-highest peak in the Western Ghats at Meesapulimala to the world's highest tea plantation at Kolukkumalai, Munnar offers unmatched biodiversity, spice-scented mountain air, and hiking trails that leave you spellbound.</p>
+          <ul class="list">
+            <li>Endangered Nilgiri Tahr and purple Neelakurinji blooms</li>
+            <li>Rugged 4x4 Jeep safaris over cloud-shrouded ridges</li>
+            <li>Organic orthodox tea factories operating since 1935</li>
+            <li>Serene lake boat rides, arch dams, and hidden waterfalls</li>
+          </ul>
+        </div>
+        <div class="pic rv" style="--img:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600&q=80')"></div>
+      </div>
+    </section>
+
+    <!-- 16 Top Places of Munnar Section -->
+    <section class="dark" id="places-grid">
+      <div class="wrap">
+        <div class="section-header center rv">
+          <span class="eyebrow">Curated Destination Guide</span>
+          <h2 class="title">Top 16 Places to Experience in Munnar</h2>
+          <p class="lead">From cloud-peak sunrises to tranquil lakes and aromatic tea terraces, filter by category or search your dream stop below.</p>
+        </div>
+
+        <!-- Filter Tabs & Search Bar -->
+        <div class="filter-controls rv">
+          <div class="filter-tabs">
+            <button class="filter-btn active" data-cat="all">All Places <span class="count">16</span></button>
+            <button class="filter-btn" data-cat="peaks">⛰️ Peaks & Sunrise <span class="count">4</span></button>
+            <button class="filter-btn" data-cat="waterfalls">💧 Lakes & Falls <span class="count">5</span></button>
+            <button class="filter-btn" data-cat="tea">🍃 Tea & Heritage <span class="count">4</span></button>
+            <button class="filter-btn" data-cat="wildlife">🦌 Wildlife & Nature <span class="count">3</span></button>
+          </div>
+          <div class="search-box">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="place-search" placeholder="Search any place, trek, or lake...">
+          </div>
+        </div>
+
+        <!-- Places Grid -->
+        <div class="grid" id="places-container">
+
+          <!-- 1. Kolukkumalai -->
+          <div class="place-card rv" data-cat="tea" data-title="Kolukkumalai Tea Estate" data-cat-label="Tea & Heritage" data-alt="2,400 m (7,900 ft)" data-dist="35 km from Munnar" data-time="4:30 AM - 5:00 PM" data-tags="sunrise jeep tea heritage" data-full-desc="Kolukkumalai is officially the highest tea plantation in the world, renowned for its artisanal orthodox tea processed using traditional methods since 1935. The thrilling 1.5-hour 4x4 rugged jeep ride up the mountain culminates in South India's most breathtaking sunrise above an ocean of rolling white clouds." data-tips="Start your jeep safari at 4:30 AM from Suryanelli to reach the sunrise viewpoint before dawn. Bring warm windbreakers; temperatures often drop below 8°C." data-img="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Tea & Heritage</span>
+                <span class="alt-pill">2,400 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Suryanelli / Bodinayakkanur Ridge</div>
+              <h3>Kolukkumalai Tea Estate</h3>
+              <p>World's highest organic tea plantation, famous for thrilling 4x4 off-road jeep journeys, historic 1935 factory, and unmatched sunrise over a sea of clouds.</p>
+              <div class="place-tags">
+                <span class="place-tag">Golden Sunrise</span>
+                <span class="place-tag">4x4 Jeep Safari</span>
+                <span class="place-tag">Orthodox Tea</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>35 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Meesapulimala -->
+          <div class="place-card rv" data-cat="peaks" data-title="Meesapulimala Peak" data-cat-label="Peaks & Trekking" data-alt="2,640 m (8,661 ft)" data-dist="24 km from Munnar" data-time="Forest Dept Treks Only" data-tags="trek sunrise camping rhododendron" data-full-desc="The second highest peak in the Western Ghats, Meesapulimala derives its name from its resemblance to a tiger's face ('Meesa' meaning moustache, 'Puli' meaning tiger). The trek traverses eight scenic rolling hillocks, fragrant pine woods, and the stunning Rhodo Valley where high-altitude rhododendrons bloom." data-tips="Trekking requires advance KFDC / Kerala Forest Department permission. TrackWorld packages include approved permits, local forest guides, and base camp stays." data-img="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Peaks & Trekking</span>
+                <span class="alt-pill">2,640 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Rhodo Valley, High Ranges</div>
+              <h3>Meesapulimala Peak</h3>
+              <p>The legendary summit of Kerala, featuring an 8-hill ridge hike, rhododendron-filled valleys, wild mountain streams, and panoramic sunrise above clouds.</p>
+              <div class="place-tags">
+                <span class="place-tag">High Altitude Trek</span>
+                <span class="place-tag">Rhodo Valley</span>
+                <span class="place-tag">Camp Under Stars</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>24 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Eravikulam National Park -->
+          <div class="place-card rv" data-cat="wildlife" data-title="Eravikulam National Park (Rajamalai)" data-cat-label="Wildlife & Nature" data-alt="2,000 m" data-dist="13 km from Munnar" data-time="7:30 AM - 4:00 PM" data-tags="tahr wildlife kurinji safari" data-full-desc="A UNESCO World Heritage sanctuary sprawled across 97 sq km of pristine shola grasslands. Eravikulam protects the largest remaining population of the endangered Nilgiri Tahr (mountain goat). It is also the global epicentre of the mass flowering of the rare purple Neelakurinji flower, blooming once every 12 years." data-tips="Park is typically closed for calving season from February through March. Book safari bus slots online in advance to skip long morning queues." data-img="https://images.unsplash.com/photo-1571771019784-3ff35f4f4277?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1571771019784-3ff35f4f4277?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Wildlife & Nature</span>
+                <span class="alt-pill">2,000 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Rajamalai Hills</div>
+              <h3>Eravikulam National Park</h3>
+              <p>Sanctuary of the endangered Nilgiri Tahr mountain goat and rolling shola grasslands where the mythical Neelakurinji blossoms purple across hillsides.</p>
+              <div class="place-tags">
+                <span class="place-tag">Nilgiri Tahr</span>
+                <span class="place-tag">Neelakurinji</span>
+                <span class="place-tag">Eco Safari</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>13 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Top Station -->
+          <div class="place-card rv" data-cat="peaks" data-title="Top Station & Cloud Valley" data-cat-label="Peaks & Viewpoints" data-alt="1,880 m" data-dist="32 km from Munnar" data-time="6:00 AM - 7:00 PM" data-tags="viewpoint clouds panorama valley" data-full-desc="The highest point on the Munnar-Kodaikanal road, Top Station once served as the upper transshipment terminal for the historic Kundala aerial ropeway used to transport tea down to Tamil Nadu. Today, visitors stand on cliff-edge lookouts with a 360-degree vista over the clouds and Theni valley." data-tips="Visit either early morning (6:30 - 8:30 AM) for dramatic cloud sea formations or late afternoon for golden hour light bouncing off the cliff sides." data-img="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Peaks & Viewpoints</span>
+                <span class="alt-pill">1,880 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Kerala-Tamil Nadu Border</div>
+              <h3>Top Station & Cloud Valley</h3>
+              <p>Historic terminal of the old tea ropeway offering legendary panoramic cliff views stretching across Western Ghats ridges into the valleys of Theni.</p>
+              <div class="place-tags">
+                <span class="place-tag">Cloud Inversion</span>
+                <span class="place-tag">360° Views</span>
+                <span class="place-tag">Border Ridge</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>32 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Mattupetty Dam & Lake -->
+          <div class="place-card rv" data-cat="waterfalls" data-title="Mattupetty Dam & Lake" data-cat-label="Lakes & Waterfalls" data-alt="1,700 m" data-dist="11 km from Munnar" data-time="9:00 AM - 5:30 PM" data-tags="boating dam lake elephants" data-full-desc="A monumental gravity concrete dam constructed in the 1940s to conserve water for hydroelectric power. The serene reservoir is bordered by undulating green tea slopes, and thrilling speedboats slice through its calm waters. Herds of wild elephants frequently congregate along the banks to drink." data-tips="Combine speedboating with a visit to the nearby Indo-Swiss dairy farm, known for specialized high-yield cattle breeds and verdant pasturelands." data-img="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Lakes & Waterfalls</span>
+                <span class="alt-pill">1,700 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Mattupetty Valley</div>
+              <h3>Mattupetty Dam & Lake</h3>
+              <p>Stunning hydro-reservoir framed by manicured tea terraces. Enjoy high-speed motorboats, scenic lake strolls, and wild elephant sightings near the water.</p>
+              <div class="place-tags">
+                <span class="place-tag">Speedboating</span>
+                <span class="place-tag">Elephant Spotting</span>
+                <span class="place-tag">Gravity Dam</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>11 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Echo Point -->
+          <div class="place-card rv" data-cat="waterfalls" data-title="Echo Point" data-cat-label="Lakes & Waterfalls" data-alt="1,650 m" data-dist="15 km from Munnar" data-time="6:00 AM - 6:00 PM" data-tags="echo lake boating acoustic nature" data-full-desc="Situated along the lake road to Top Station, Echo Point features a rare natural acoustic phenomenon. Call out across the water, and your voice rebounds cleanly from the eucalyptus and pine-clad hills. The banks are dotted with local spice stalls, fresh pineapples with chilli powder, and pedal boats." data-tips="Try shouting in short, distinct phrases for the cleanest acoustic reflection. Morning visits offer tranquil waters with reflections of misty hills." data-img="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Lakes & Waterfalls</span>
+                <span class="alt-pill">1,650 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Mattupetty - Top Station Road</div>
+              <h3>Echo Point</h3>
+              <p>Natural acoustic phenomenon where your voice echoes back across the mist-draped reservoir. Surrounded by lush eucalyptus groves, spiced fruits, and pedal boats.</p>
+              <div class="place-tags">
+                <span class="place-tag">Natural Echo</span>
+                <span class="place-tag">Pedal Boats</span>
+                <span class="place-tag">Scenic Strolls</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>15 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. Attukal Waterfalls -->
+          <div class="place-card rv" data-cat="waterfalls" data-title="Attukal Waterfalls" data-cat-label="Lakes & Waterfalls" data-alt="1,500 m" data-dist="9 km from Munnar" data-time="Open 24 hours (Daylight best)" data-tags="waterfall cascades trek lush" data-full-desc="Nestled between Munnar and Pallivasal, Attukal is a vigorous mountain waterfall cascading down rugged boulders through deep green forests. A narrow wooden footbridge allows adventurers to stand amidst the cool spray. Surrounding trails offer fantastic trekking through Cardamom estates." data-tips="At its most thundering during and immediately following the monsoon (July - November). Wear shoes with strong grip for wet rocky walkways." data-img="https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Lakes & Waterfalls</span>
+                <span class="alt-pill">1,500 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Pallivasal Road</div>
+              <h3>Attukal Waterfalls</h3>
+              <p>Roaring cascade tumbling down jagged granite boulders through lush shola jungle. Cross the wooden suspension footbridge for an invigorating mist spray.</p>
+              <div class="place-tags">
+                <span class="place-tag">Cascading Falls</span>
+                <span class="place-tag">Jungle Trek</span>
+                <span class="place-tag">Monsoon Spectacle</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>9 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8. Kundala Arch Dam & Lake -->
+          <div class="place-card rv" data-cat="waterfalls" data-title="Kundala Arch Dam & Lake" data-cat-label="Lakes & Waterfalls" data-alt="1,750 m" data-dist="25 km from Munnar" data-time="9:00 AM - 5:00 PM" data-tags="arch dam shikara boating cherry blossom" data-full-desc="Home to Asia's first arch dam, Kundala is arguably the most picturesque lake in the Munnar highlands. Cherry blossoms bloom twice a year along its perimeter, resembling an alpine landscape. Visitors can rent authentic Kashmiri-style Shikara boats or pedal boats on its mirror-like waters." data-tips="The Kashmiri Shikara ride here is remarkably peaceful and romantic. Keep your camera ready for the rare pink cherry blossoms blooming in autumn." data-img="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Lakes & Waterfalls</span>
+                <span class="alt-pill">1,750 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Kundala Valley</div>
+              <h3>Kundala Arch Dam & Lake</h3>
+              <p>Asia's first arch dam, nestled in pine-studded highlands. Glide across tranquil waters on Kashmiri Shikara boats surrounded by blooming cherry blossom trees.</p>
+              <div class="place-tags">
+                <span class="place-tag">Kashmiri Shikara</span>
+                <span class="place-tag">Asia's 1st Arch Dam</span>
+                <span class="place-tag">Cherry Blossoms</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>25 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 9. Anamudi Peak -->
+          <div class="place-card rv" data-cat="peaks" data-title="Anamudi Peak" data-cat-label="Peaks & Trekking" data-alt="2,695 m (8,842 ft)" data-dist="13 km from Munnar" data-time="Viewable from Eravikulam" data-tags="everest south summit mountain granite" data-full-desc="Revered as the 'Everest of South India', Anamudi literally translates to 'Elephant's Forehead' owing to its imposing dome-shaped granite monolith. Standing at 2,695 m, it is the highest peak in the Western Ghats and peninsular India. While the summit is protected for conservation, awe-inspiring views are accessible from Rajamalai." data-tips="Viewable during your trek inside Eravikulam National Park. Look out for high-altitude raptors and peregrine falcons soaring above the sheer granite face." data-img="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Peaks & Trekking</span>
+                <span class="alt-pill">2,695 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Eravikulam Sanctuary</div>
+              <h3>Anamudi Peak</h3>
+              <p>The highest mountain in peninsular India and South India's crowning peak. An enormous granite dome rising above mist, home to rare high-altitude ecosystems.</p>
+              <div class="place-tags">
+                <span class="place-tag">Highest in South India</span>
+                <span class="place-tag">Granite Dome</span>
+                <span class="place-tag">UNESCO Biosphere</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>13 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10. Lakkam Waterfalls -->
+          <div class="place-card rv" data-cat="waterfalls" data-title="Lakkam Waterfalls" data-cat-label="Lakes & Waterfalls" data-alt="1,600 m" data-dist="25 km from Munnar" data-time="8:00 AM - 5:00 PM" data-tags="waterfall stream plunge vaga marayoor" data-full-desc="Surrounded by ancient Vaga (flame of the forest) trees along the scenic road to Marayoor, Lakkam Waterfalls is fed by streams originating from the high Eravikulam plateau. It plunges into a crystal-clear, shallow freshwater pool where travellers can dip their feet in invigorating cold mountain water." data-tips="A very refreshing, easily accessible stop on the way to the Marayoor sandalwood forests. Clean changing rooms and forest cafeteria available on site." data-img="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Lakes & Waterfalls</span>
+                <span class="alt-pill">1,600 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Marayoor Highway</div>
+              <h3>Lakkam Waterfalls</h3>
+              <p>Hidden cascade surrounded by lush Vaga groves, cascading into a shallow pool of crisp, cold mountain water fed by Eravikulam streams.</p>
+              <div class="place-tags">
+                <span class="place-tag">Natural Plunge Pool</span>
+                <span class="place-tag">Forest Canopy</span>
+                <span class="place-tag">Road Trip Stop</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>25 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 11. KDHP Tea Museum & Factory -->
+          <div class="place-card rv" data-cat="tea" data-title="KDHP Tata Tea Museum" data-cat-label="Tea & Heritage" data-alt="1,550 m" data-dist="2 km from Munnar town" data-time="9:00 AM - 4:00 PM (Closed Mon)" data-tags="tea museum factory history tasting" data-full-desc="Located at the Nallathanni Estate, the Tata Tea Museum chronicles the growth of Munnar from an uninhabited jungle in the 1880s to the world's most organized tea hub. View original rotorvane machines, vintage Pelton wheels, colonial photograph archives, and participate in curated tea tasting." data-tips="Do not miss the live demonstration room where you can watch green tea leaves plucking, withering, curling, fermenting, and drying into premium black tea." data-img="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Tea & Heritage</span>
+                <span class="alt-pill">1,550 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Nallathanni Estate</div>
+              <h3>KDHP Tata Tea Museum</h3>
+              <p>India's first tea museum celebrating over 140 years of tea history. Features vintage machinery, live processing demonstrations, and artisanal tea tasting.</p>
+              <div class="place-tags">
+                <span class="place-tag">Tea Tasting</span>
+                <span class="place-tag">Colonial History</span>
+                <span class="place-tag">Live Processing</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>2 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 12. Lockhart Gap & Viewpoint -->
+          <div class="place-card rv" data-cat="peaks" data-title="Lockhart Gap & Viewpoint" data-cat-label="Peaks & Viewpoints" data-alt="1,680 m" data-dist="12 km from Munnar" data-time="6:00 AM - 6:30 PM" data-tags="sunset gorge spice lockhart" data-full-desc="A natural heart-shaped gap carved between two towering mountain walls, Lockhart Gap overlooks the scenic Bison Valley. The slopes are laden with cardamom, clove, and tea plantations. In the evening, the entire valley glows in shades of copper, amber, and gold as the sun sinks behind the peaks." data-tips="The misty air here carries a distinct scent of wild mountain lemongrass and fresh cardamom. Perfect spot for panoramic landscape photography at sunset." data-img="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Peaks & Viewpoints</span>
+                <span class="alt-pill">1,680 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Gap Road, Devikulam</div>
+              <h3>Lockhart Gap & Viewpoint</h3>
+              <p>Natural heart-shaped mountain gap looking out across Bison Valley. Enjoy spice plantation trails, winding mountain passes, and stunning golden sunsets.</p>
+              <div class="place-tags">
+                <span class="place-tag">Sunset Vista</span>
+                <span class="place-tag">Spice Slopes</span>
+                <span class="place-tag">Cliff Road Drive</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>12 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 13. Pothamedu Viewpoint -->
+          <div class="place-card rv" data-cat="tea" data-title="Pothamedu Viewpoint" data-cat-label="Tea & Heritage" data-alt="1,550 m" data-dist="4 km from Munnar" data-time="5:30 AM - 7:00 PM" data-tags="sunset tea valley coffee walking" data-full-desc="Located just a short drive from Munnar town, Pothamedu offers wide-angle views over undulating valleys covered in emerald carpets of tea, coffee, and pepper vines. The Muthirapuzha river glints in the distant canyon floor, making it a beloved trekker and sunset-watcher haven." data-tips="Take a brisk 2 km scenic walking trail from the town up to the viewpoint for an energizing morning hill hike with tea estate workers." data-img="https://images.unsplash.com/photo-1546768292-fb12f6c92568?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1546768292-fb12f6c92568?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Tea & Heritage</span>
+                <span class="alt-pill">1,550 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Pothamedu Hill</div>
+              <h3>Pothamedu Viewpoint</h3>
+              <p>Panoramic cliff vantage point offering sweeping perspectives of rolling tea, cardamom, and coffee valleys bathed in evening mist and sunset glow.</p>
+              <div class="place-tags">
+                <span class="place-tag">Sunset Lookout</span>
+                <span class="place-tag">Cardamom Slopes</span>
+                <span class="place-tag">Walking Trails</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>4 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 14. Marayoor Sandalwood Forest & Dolmens -->
+          <div class="place-card rv" data-cat="wildlife" data-title="Marayoor Sandalwood Forests & Muniyaras" data-cat-label="Wildlife & Nature" data-alt="1,000 m" data-dist="40 km from Munnar" data-time="8:00 AM - 5:00 PM" data-tags="sandalwood dolmens heritage neolithic jaggery" data-full-desc="Marayoor is the only place in Kerala with a naturally regenerating sandalwood forest, home to over 65,000 aromatic trees. The area is also world-renowned for Neolithic Muniyara dolmens—megalithic stone burial chambers dating back to the Iron Age—and organic Marayoor Sharkara (jaggery)." data-tips="Visit a traditional roadside sugarcane mill to taste hot, freshly pressed sugarcane juice and pure organic jaggery straight from giant boiling vats." data-img="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Wildlife & Nature</span>
+                <span class="alt-pill">1,000 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Marayoor Valley</div>
+              <h3>Marayoor Sandalwood & Dolmens</h3>
+              <p>Naturally growing fragrant sandalwood forests, 3,000-year-old prehistoric stone dolmens (Muniyaras), and authentic artisan sugarcane jaggery mills.</p>
+              <div class="place-tags">
+                <span class="place-tag">Sandalwood Groves</span>
+                <span class="place-tag">Neolithic Dolmens</span>
+                <span class="place-tag">Sugarcane Jaggery</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>40 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 15. Chinnar Wildlife Sanctuary -->
+          <div class="place-card rv" data-cat="wildlife" data-title="Chinnar Wildlife Sanctuary" data-cat-label="Wildlife & Nature" data-alt="1,200 m" data-dist="48 km from Munnar" data-time="6:00 AM - 5:00 PM" data-tags="wildlife safari squirrel elephants trek" data-full-desc="A rain-shadow habitat contrasting beautifully with Munnar's wet evergreen forests. Chinnar is home to the critically endangered Grizzled Giant Squirrel, star tortoises, Indian leopards, wild elephants, and over 225 bird species. The sanctuary offers guided wilderness walks and treehouse camping." data-tips="Book a morning guided nature trek with tribal forest guides along the Chinnar riverbed to spot giant squirrels leaping across the river canopy." data-img="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Wildlife & Nature</span>
+                <span class="alt-pill">1,200 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Marayoor - Udumalpet Road</div>
+              <h3>Chinnar Wildlife Sanctuary</h3>
+              <p>Rain-shadow dry deciduous sanctuary protecting the rare Grizzled Giant Squirrel, wild herds of elephants, star tortoises, and scenic watchtower trails.</p>
+              <div class="place-tags">
+                <span class="place-tag">Grizzled Giant Squirrel</span>
+                <span class="place-tag">Tribal Eco-Trek</span>
+                <span class="place-tag">Treehouse Stays</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>48 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 16. Cheeyappara & Valara Waterfalls -->
+          <div class="place-card rv" data-cat="waterfalls" data-title="Cheeyappara & Valara Waterfalls" data-cat-label="Lakes & Waterfalls" data-alt="1,100 m" data-dist="42 km from Munnar" data-time="Open 24 hours" data-tags="waterfall tiers roadside kochi highway" data-full-desc="The magnificent gateway welcome to Munnar! Cheeyappara cascades down across seven distinct stone tiers resembling a cascading white bridal veil, right alongside the Kochi-Dhanushkodi Highway. A few kilometres further down lies Valara, roaring through dense green wilderness." data-tips="The ultimate stop for hot Kerala spiced tea, banana fritters (pazham pori), and fresh coconut water while listening to the roaring waterfall roar." data-img="https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1200&q=80">
+            <div class="place-img-wrap" style="--img:url('https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1200&q=80')">
+              <div class="place-badges-top">
+                <span class="cat-pill">Lakes & Waterfalls</span>
+                <span class="alt-pill">1,100 m</span>
+              </div>
+            </div>
+            <div class="place-body">
+              <div class="place-location">📍 Kochi - Munnar Highway (NH 85)</div>
+              <h3>Cheeyappara & Valara Falls</h3>
+              <p>Magnificent seven-tiered mountain torrent crashing through rainforest cliffs right beside the highway. Munnar's iconic road trip welcoming landmark.</p>
+              <div class="place-tags">
+                <span class="place-tag">7-Tier Cascade</span>
+                <span class="place-tag">Road Trip Landmark</span>
+                <span class="place-tag">Rainforest Spray</span>
+              </div>
+              <div class="place-footer">
+                <span class="place-dist">Dist: <b>42 km</b></span>
+                <button class="card-cta open-modal-trigger">View Details →</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="no-results" style="display:none; text-align:center; padding: 40px; color: #a8c4b4;">
+          <h3>No places found matching your search.</h3>
+          <p>Try searching for "lake", "tea", "trek", "sunrise", or select another filter category.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive 4-Day Curated Munnar Itinerary -->
+    <section id="itinerary">
+      <div class="wrap">
+        <div class="section-header rv">
+          <span class="eyebrow">Expert Planning</span>
+          <h2 class="title">The Ultimate 4-Day Munnar Expedition</h2>
+          <p class="lead">Carefully crafted by TrackWorld guides who have lived in these hills for generations. Designed for minimal driving, maximum exploration, and unforgettable sunrises.</p>
+        </div>
+
+        <div class="itinerary-container">
+          
+          <!-- Day 1 -->
+          <div class="itinerary-day rv">
+            <div class="itinerary-header">
+              <span class="day-badge">Day 01</span>
+              <h3>Arrive, Tea Estates & Golden Sunset</h3>
+            </div>
+            <div class="itinerary-route">
+              <b>Route:</b> Scenic Drive via Cheeyappara <span>➔</span> Tea Museum <span>➔</span> Pothamedu Sunset Viewpoint <span>➔</span> Campfire Welcome
+            </div>
+            <p style="color:var(--muted); font-size: 0.98rem;">Ascend the mist-wrapped Western Ghats from Cochin. Freshen up with authentic cardamom tea, explore the 140-year colonial legacy at Tata Tea Museum, and watch the sun dip into the rolling emerald tea ridges of Pothamedu.</p>
+            <div class="itinerary-stops">
+              <div class="itinerary-stop">
+                <b>Morning: Arrival & Falls</b>
+                <small>Stop at Cheeyappara 7-tier falls for photos and hot fresh chai.</small>
+              </div>
+              <div class="itinerary-stop">
+                <b>Afternoon: Tea History</b>
+                <small>Live tea plucking and artisanal factory tour at Nallathanni Estate.</small>
+              </div>
+              <div class="itinerary-stop">
+                <b>Evening: Golden Sunset</b>
+                <small>Hike to Pothamedu Ridge followed by traditional Kerala dinner.</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 2 -->
+          <div class="itinerary-day rv">
+            <div class="itinerary-header">
+              <span class="day-badge">Day 02</span>
+              <h3>Kolukkumalai Sunrise 4x4 & Meesapulimala Trails</h3>
+            </div>
+            <div class="itinerary-route">
+              <b>Route:</b> Suryanelli <span>➔</span> 4x4 Off-Road Safari <span>➔</span> World's Highest Tea Plantation <span>➔</span> Rhodo Valley Ridge Hike
+            </div>
+            <p style="color:var(--muted); font-size: 0.98rem;">A 4:30 AM thrilling off-road jeep ascent through rugged mountain tracks to Kolukkumalai. Gaze in awe as the sun breaks above an endless sea of clouds, then trek the high ridges surrounded by blooming high-altitude wildflowers.</p>
+            <div class="itinerary-stops">
+              <div class="itinerary-stop">
+                <b>4:30 AM: Jeep Safari</b>
+                <small>Thrilling 4x4 climb through misty tea estates in the dark.</small>
+              </div>
+              <div class="itinerary-stop">
+                <b>6:15 AM: Sea of Clouds</b>
+                <small>Watch the world awaken above 2,400 m with fresh mountain chai.</small>
+              </div>
+              <div class="itinerary-stop">
+                <b>Afternoon: Ridge Trek</b>
+                <small>Trek the lower ridges of Meesapulimala through pine groves.</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 3 -->
+          <div class="itinerary-day rv">
+            <div class="itinerary-header">
+              <span class="day-badge">Day 03</span>
+              <h3>Lakes, Natural Echoes & Top Station Border Ridge</h3>
+            </div>
+            <div class="itinerary-route">
+              <b>Route:</b> Mattupetty Dam <span>➔</span> Echo Point <span>➔</span> Kundala Arch Dam <span>➔</span> Top Station Cloud Valley
+            </div>
+            <p style="color:var(--muted); font-size: 0.98rem;">Follow the high mountain highway bordering evergreen forests and reservoirs. Try speedboating at Mattupetty, call into the acoustic canyon at Echo Point, glide on a Kashmiri Shikara at Kundala, and finish at the cliff edges of Top Station.</p>
+            <div class="itinerary-stops">
+              <div class="itinerary-stop">
+                <b>Morning: Speedboat Safari</b>
+                <small>Cruising Mattupetty lake with chances of spotting wild elephants.</small>
+              </div>
+              <div class="itinerary-stop">
+                <b>Noon: Echoes & Shikara</b>
+                <small>Natural resonance at Echo Point and peaceful Shikara boat ride.</small>
+              </div>
+              <div class="itinerary-stop">
+                <b>Sunset: Top Station</b>
+                <small>Stand on the Kerala-Tamil Nadu edge overlooking 360° cloud seas.</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Day 4 -->
+          <div class="itinerary-day rv">
+            <div class="itinerary-header">
+              <span class="day-badge">Day 04</span>
+              <h3>Nilgiri Tahr Sanctuary, Lakkam Falls & Marayoor</h3>
+            </div>
+            <div class="itinerary-route">
+              <b>Route:</b> Eravikulam National Park <span>➔</span> Anamudi View <span>➔</span> Lakkam Waterfalls <span>➔</span> Sandalwood & Departure
+            </div>
+            <p style="color:var(--muted); font-size: 0.98rem;">Spot the rare Nilgiri Tahr mountain goats on the shola slopes of Rajamalai, take a refreshing foot dip in the crystal plunge pool of Lakkam Falls, and stock up on pure first-flush orthodox tea and Kerala spices before heading home.</p>
+            <div class="itinerary-stops">
+              <div class="itinerary-stop">
+                <b>Morning: Wildlife Safari</b>
+                <small>Early safari at Eravikulam to observe wild Nilgiri Tahr herds.</small>
+              </div>
+              <div class="itinerary-stop">
+                <b>Noon: Lakkam Spring Dip</b>
+                <small>Cool mountain plunge and stroll under ancient Vaga tree canopy.</small>
+              </div>
+              <div class="itinerary-stop">
+                <b>Afternoon: Spice & Tea Market</b>
+                <small>Handpicked fresh cardamom, cinnamon, and artisanal green teas.</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Munnar Seasons & Weather Matrix -->
+    <section class="dark">
+      <div class="wrap">
+        <div class="section-header center rv">
+          <span class="eyebrow">When to Visit</span>
+          <h2 class="title">Munnar Through the Seasons</h2>
+          <p class="lead">Every month brings a fresh personality to Munnar's hills. Find the perfect season for your travel style.</p>
+        </div>
+
+        <div class="season-grid">
+          
+          <div class="season-card winter rv">
+            <span class="season-period">October – February</span>
+            <h3>Winter & Mist</h3>
+            <div class="season-temp">10°C – 20°C</div>
+            <p>Peak travel season. Crisp starry nights, thick morning fog, and crystal-clear sunrise views above cloud carpets.</p>
+            <ul class="season-features">
+              <li>Best for high-peak sunrise treks</li>
+              <li>Pleasant daytime walking weather</li>
+              <li>Stargazing and bonfire nights</li>
+            </ul>
+          </div>
+
+          <div class="season-card spring rv">
+            <span class="season-period">March – May</span>
+            <h3>Summer Retreat</h3>
+            <div class="season-temp">18°C – 26°C</div>
+            <p>The perfect cool refuge from the hot plains of South India. Tea bushes sprout fresh delicate light-green shoots.</p>
+            <ul class="season-features">
+              <li>Ideal for family holidays & boating</li>
+              <li>Clear trekking trails</li>
+              <li>Fresh tea leaf harvest season</li>
+            </ul>
+          </div>
+
+          <div class="season-card monsoon rv">
+            <span class="season-period">June – August</span>
+            <h3>Monsoon Rhapsody</h3>
+            <div class="season-temp">15°C – 21°C</div>
+            <p>The hills turn an electric emerald green. Waterfalls thunder down cliffs, and romantic clouds float right through your balcony.</p>
+            <ul class="season-features">
+              <li>Waterfalls at maximum roar</li>
+              <li>Peaceful, uncrowded atmosphere</li>
+              <li>Ayurvedic rejuvenation stays</li>
+            </ul>
+          </div>
+
+          <div class="season-card summer rv">
+            <span class="season-period">September – October</span>
+            <h3>Post-Monsoon Bloom</h3>
+            <div class="season-temp">14°C – 22°C</div>
+            <p>The rains wash the sky pristine blue. Wild mountain orchids and wildflowers burst into bloom along all trails.</p>
+            <ul class="season-features">
+              <li>Vibrant floral landscapes</li>
+              <li>Crystal clear photography light</li>
+              <li>Ideal camping temperatures</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Travel Essentials & Local Guide -->
+    <section>
+      <div class="wrap split">
+        <div class="pic rv" style="--img:url('https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80')"></div>
+        <div class="rv">
+          <span class="eyebrow">Local Expert Advice</span>
+          <h2 class="title">Essential Tips for Your Munnar Journey</h2>
+          <p class="lead">Make the most of your hill station escape with these insider tips from our local guides.</p>
+          
+          <div style="display:grid; gap: 18px; margin-top: 24px;">
+            <div style="background:#fff; padding:18px 22px; border-radius:var(--r-sm); border:1px solid var(--border);">
+              <b style="color:var(--forest); display:block; margin-bottom:4px;">🚗 How to Reach</b>
+              <p style="font-size:0.92rem; color:var(--muted); margin:0;">Cochin International Airport (COK) is 110 km (3.5 hours) away via NH 85. Aluva is the nearest major railway station (115 km). TrackWorld provides private sanitized transfers.</p>
+            </div>
+
+            <div style="background:#fff; padding:18px 22px; border-radius:var(--r-sm); border:1px solid var(--border);">
+              <b style="color:var(--forest); display:block; margin-bottom:4px;">🎒 What to Pack</b>
+              <p style="font-size:0.92rem; color:var(--muted); margin:0;">Bring thermal layers for early morning sunrises (temperatures dip to 6°C), sturdy hiking shoes with grip, rain jacket, reusable water bottle, and binoculars for birdwatching.</p>
+            </div>
+
+            <div style="background:#fff; padding:18px 22px; border-radius:var(--r-sm); border:1px solid var(--border);">
+              <b style="color:var(--forest); display:block; margin-bottom:4px;">🛍️ What to Buy</b>
+              <p style="font-size:0.92rem; color:var(--muted); margin:0;">First-flush orthodox Black and Green tea, fresh green cardamom, natural eucalyptus oil, homemade dark chocolates, and Marayoor sugarcane jaggery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions Accordion -->
+    <section class="dark">
+      <div class="wrap">
+        <div class="section-header center rv">
+          <span class="eyebrow">Got Questions?</span>
+          <h2 class="title">Frequently Asked Questions About Munnar</h2>
+          <p class="lead">Everything you need to know before visiting Kerala's highest hill station.</p>
+        </div>
+
+        <div class="faq-grid">
+          
+          <div class="faq-item rv">
+            <button class="faq-question">
+              <span>How many days are recommended to visit Munnar?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              We recommend at least 3 to 4 days to truly experience Munnar without rushing. This allows 1 day for local tea gardens, waterfalls and town heritage, 1 full morning for the Kolukkumalai / Meesapulimala sunrise trek, 1 day for the Mattupetty-Kundala-Top Station lake route, and 1 day for Eravikulam National Park and Marayoor.
+            </div>
+          </div>
+
+          <div class="faq-item rv">
+            <button class="faq-question">
+              <span>Do I need a 4x4 Jeep to reach Kolukkumalai Tea Estate?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Yes, private cars and standard taxis cannot navigate the final 12 km rocky off-road terrain leading up to Kolukkumalai. You must hire an authorized 4x4 off-road jeep with an experienced local mountain driver from Suryanelli. TrackWorld includes direct hotel pickup and return in our Kolukkumalai tour packages.
+            </div>
+          </div>
+
+          <div class="faq-item rv">
+            <button class="faq-question">
+              <span>Are permits required for Meesapulimala and Eravikulam?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Yes! Meesapulimala requires official permits from the Kerala Forest Development Corporation (KFDC) with mandatory forest guides. Eravikulam National Park operates on timed entry safari buses with quotas. TrackWorld arranges all government permissions, guide escorts, and safari slots in advance for our guests.
+            </div>
+          </div>
+
+          <div class="faq-item rv">
+            <button class="faq-question">
+              <span>Is Munnar suitable for elderly travellers and young children?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Absolutely! While high peaks like Meesapulimala are demanding, Munnar offers plenty of accessible, gentle experiences including the Tea Museum, Shikara boat rides at Kundala Lake, roadside viewpoints like Pothamedu, and the paved safari bus trails of Eravikulam National Park.
+            </div>
+          </div>
+
+          <div class="faq-item rv">
+            <button class="faq-question">
+              <span>When does the rare Neelakurinji flower bloom?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              The legendary <i>Strobilanthes kunthiana</i> (Neelakurinji) blooms in a breathtaking mass carpet of purple-blue once every 12 years across the slopes of Eravikulam and surrounding grasslands. The next major mass flowering cycle in Munnar is scheduled for 2030, though sporadic minor blooms occur on isolated hillsides.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Band -->
+    <section>
+      <div class="wrap">
+        <div class="cta-band rv">
+          <h2>Ready to Walk Above the Clouds?</h2>
+          <p>Tell us your dates, group size, and favorite spots. Our Munnar specialists will design your personalized itinerary within 4 hours.</p>
+          <a class="btn" href="contact.html">Plan My Munnar Trip Now →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Place Detail Modal Popup -->
+  <div class="modal-overlay" id="place-modal">
+    <div class="modal-dialog">
+      <button class="modal-close" id="modal-close" aria-label="Close dialog">✕</button>
+      <div class="modal-img" id="modal-img">
+        <div class="modal-img-content">
+          <span class="cat-pill" id="modal-cat">Category</span>
+          <h2 id="modal-title">Place Name</h2>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-grid">
+          <div class="modal-stat">
+            <small>Altitude</small>
+            <b id="modal-alt">--</b>
+          </div>
+          <div class="modal-stat">
+            <small>Distance</small>
+            <b id="modal-dist">--</b>
+          </div>
+          <div class="modal-stat">
+            <small>Best Hours</small>
+            <b id="modal-time">--</b>
+          </div>
+        </div>
+        <p class="modal-desc" id="modal-desc">Detailed information about this destination...</p>
+        <div class="modal-tips" id="modal-tips">
+          <b>💡 TrackWorld Explorer Tip:</b> Wear sturdy shoes and bring drinking water.
+        </div>
+        <div class="modal-actions">
+          <a class="btn" id="modal-book-btn" href="contact.html">Include in My Munnar Tour →</a>
+          <button class="btn ghost" style="color:var(--deep); border-color:var(--border);" onclick="document.getElementById('place-modal').classList.remove('open'); document.body.style.overflow='';">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      <div>
+        <a href="index.html" class="logo">
+          <span class="logo-leaf">🍃</span> Track<i>World</i>
+        </a>
+        <p>Curated treks, cloud-peak sunrises, luxury camping, and authentic tea garden journeys across the Western Ghats of Kerala.</p>
+      </div>
+
+      <div>
+        <h3>Munnar Highlights</h3>
+        <ul>
+          <li><a href="munnar.html#places-grid">Kolukkumalai Tea</a></li>
+          <li><a href="munnar.html#places-grid">Meesapulimala Peak</a></li>
+          <li><a href="munnar.html#places-grid">Eravikulam Sanctuary</a></li>
+          <li><a href="munnar.html#places-grid">Top Station View</a></li>
+          <li><a href="munnar.html#places-grid">Mattupetty & Kundala</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Explore Site</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="munnar.html">Munnar Guide</a></li>
+          <li><a href="services.html">Tours & Treks</a></li>
+          <li><a href="projects.html">Photo Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Book Custom Trip</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact Us</h3>
+        <p>
+          📍 Hill View Road, Munnar & Main Road, Thrissur<br>
+          📞 +91 800 123 456 / +91 944 700 8899<br>
+          ✉️ hello@trackworld.com<br>
+          ⏰ Daily 8:00 AM – 9:00 PM IST
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 TrackWorld Adventures Pvt Ltd. All rights reserved.</p>
+        <p>Crafted with passion for Kerala's hills & eco-tourism.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="Assets/js/main.js"></script>
+</body>
+</html>
